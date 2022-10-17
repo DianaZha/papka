@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!--    адаптивная верстка-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Мой бложек</title>
+</head>
+<body>
+<!--<div class="alert alert-info">test 2</div>-->
+<!--<div class="alert alert-danger"> text</div>-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+<!--fluid - полноразмерный контейнер -->
+<div class="container-fluid">
+    <!--    ps - слева pe - справа pt - сверху pb - снизу-->
+    <div class="row">
+        <!--        py- отступ по игрик -->
+        <!--        mb - внешний отступ-->
+        <div class="col-12 bg-danger mb-2 py-3">
+            цщц
+        </div>
+        <div class="col-12 bg-secondary mb-3 py-3">
+            Loren
+        </div>
+    </div>
+</div>
+<!--<div class="card" style="width: 18rem;">-->
+<!--  <img src="..." class="card-img-top" alt="...">-->
+<!--  <div class="card-body">-->
+<!--    <h5 class="card-title">Card title</h5>-->
+<!--    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--    <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--  </div>-->
+<!--</div>-->
+
+<div class="spinner-border text-bg-primary" role="status">
+    <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-start" role="status">
+    <span class="visually-hidden">Loading...</span>
+</div>
+
+<br>
+
+<div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+         aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+         style="width: 80%"></div>
+</div>
+
+<br>
+
+<nav aria-label="...">
+    <ul class="pagination pagination-lg">
+        <li class="page-item active" aria-current="page">
+            <span class="page-link">1</span>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+    </ul>
+</nav>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 bg-secondary p-3">1</div>
+        <div class="col-12 bg-dark p-3" style="color: white">2</div>
+        <div class="col-12 bg-info p-3">3</div>
+    </div>
+</div>
+
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-4 col-xl-6 bg-secondary p-6">1</div>
+        <div class="col-12 col-md-4 col-xl-6 bg-dark" style="color: white">2</div>
+        <div class="col-12 col-md-4 col-xl-6 bg-info pr-2 pe-2">3</div>
+    </div>
+</div>
+
+</body>
+</html>
